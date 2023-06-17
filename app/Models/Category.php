@@ -4,18 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Customer extends Model
+class Category extends Model
 {
     protected $fillable = [
-        'username',
-        'password',
         'name',
-        'status',
-        'address',
-        'tel',
+        
     ];
 
     protected $casts = [
-        'status' => 'boolean',
+        
     ];
 }
