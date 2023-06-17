@@ -57,3 +57,6 @@ php artisan make:migration create_orders_table --create=orders
 ```bash
 php artisan make:migration create_sellers_table --create=sellers
 ```
+
+
+php artisan db:seed --class=DatabaseSeeder
