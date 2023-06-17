@@ -4,20 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Menufacturing extends Model
 {
     protected $fillable = [
+        'time',
         'name',
-        'des',
-        'stock',
-        'price',
-        'img1',
-        'img2',
-        'img3',
-        'img4',
-        'img5',
+        'qty',
         'status',
-        'size',
     ];
 
     protected $casts = [

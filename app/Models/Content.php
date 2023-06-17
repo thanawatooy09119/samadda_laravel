@@ -19,6 +19,6 @@ class Content extends Model
     ];
 
     protected $casts = [
-        'status' => 'boolean',
+        
     ];
 }

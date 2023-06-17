@@ -40,5 +40,10 @@ php artisan make:migration create_contents_table --create=contents
 
 - create products
 ```bash
-php artisan make:migration create_products_table --create=products
+php artisan make:migration create_products_table --create=products 
+```
+
+- create manufacturings
+```bash
+php artisan make:migration create_manufacturings_table --create=manufacturings
 ```
