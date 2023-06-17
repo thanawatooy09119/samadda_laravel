@@ -12,20 +12,22 @@
                     <a class="nav-link" href="/">สมัดดาผ้าทอมือ</a>
                 </li>
 				<li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
-                       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        สินค้าทั้งหมด
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="productsDropdown">
-                        <a class="dropdown-item" href="/category1">Category 1</a>
-                        <a class="dropdown-item" href="/category2">Category 2</a>
-                        <a class="dropdown-item" href="/category3">Category 3</a>
-                    </div>
-                </li>
+					<a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+					  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  สินค้าทั้งหมด
+					</a>
+					<div class="dropdown-menu" aria-labelledby="productsDropdown">
+					  <a class="dropdown-item" href="/category1">Category 1</a>
+					  <a class="dropdown-item" href="/category2">Category 2</a>
+					  <a class="dropdown-item" href="/category3">Category 3</a>
+					</div>
+				  </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
+	
 </nav>
+
