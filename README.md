@@ -37,3 +37,8 @@ php artisan make:migration create_categories_table --create=categories
 ```bash
 php artisan make:migration create_contents_table --create=contents
 ```
+
+- create products
+```bash
+php artisan make:migration create_products_table --create=products
+```
