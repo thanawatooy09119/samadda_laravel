@@ -23,8 +23,25 @@
 					</div>
 				  </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="/contact">ข่าวประชาสัมพันธ์</a>
                 </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="/contact">วิธีการสั่งซื้อ</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="/contact">ติดต่อเรา</a>
+                </li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+					  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  สวัสดีคุณ 
+					</a>
+					<div class="dropdown-menu" aria-labelledby="productsDropdown">
+					  <a class="dropdown-item" href="/history">ประวัติการสั่งซื้อ</a>
+					  <a class="dropdown-item" href="/setting">ตั้งค่าบัญชีผู้ใช้</a>
+					  <a class="dropdown-item" href="/logout">ออกจากระบบ</a>
+					</div>
+				  </li>
             </ul>
         </div>
     </div>
