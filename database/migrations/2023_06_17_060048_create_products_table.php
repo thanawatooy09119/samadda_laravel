@@ -23,7 +23,8 @@ return new class extends Migration
             $table->string('img4');
             $table->string('img5');
             $table->boolean('status');
-            $table->integer('category');
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+            $table->unsignedBigInteger('category_id');
             $table->timestamps();
         });
     }

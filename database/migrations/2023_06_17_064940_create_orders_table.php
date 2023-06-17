@@ -17,11 +17,12 @@ return new class extends Migration
             $table->integer('list');
             $table->integer('qty');
             $table->decimal('price');
-            $table->integer('custormer_id');
             $table->date('time');
             $table->string('bank');
             $table->string('img');
             $table->boolean('status');
+            $table->foreign('customer_id')->references('id')->on('customers')->onDelete('cascade');
+            $table->unsignedBigInteger('customer_id');
             $table->timestamps();
         });
     }
