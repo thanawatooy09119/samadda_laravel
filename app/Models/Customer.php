@@ -13,6 +13,7 @@ class Customer extends Model
         'status',
         'address',
         'tel',
+        'role',
     ];
 
     protected $casts = [
