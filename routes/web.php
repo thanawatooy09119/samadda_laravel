@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
+
+Route::post('/login', [AuthController::class, 'authenticate'])->name('auth.login');
