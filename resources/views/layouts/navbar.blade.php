@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <div class="container">
         {{-- <a class="navbar-brand" href="/">LOGO SAMADDA</a> --}}
 		<img src="{{ asset('/img/samadda.png')}}" alt="" class="navbar-logo">

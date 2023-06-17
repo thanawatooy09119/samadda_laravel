@@ -2,3 +2,13 @@
 	max-height: 80px;
 	max-width: 240px;
 }
+
+.content {
+	height: 100vh;
+}
+
+#navbar {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
