@@ -47,3 +47,8 @@ php artisan make:migration create_products_table --create=products
 ```bash
 php artisan make:migration create_manufacturings_table --create=manufacturings
 ```
+
+- create orders
+```bash
+php artisan make:migration create_orders_table --create=orders
+```

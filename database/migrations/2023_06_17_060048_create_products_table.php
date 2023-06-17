@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('img4');
             $table->string('img5');
             $table->boolean('status');
+            $table->integer('category');
             $table->timestamps();
         });
     }

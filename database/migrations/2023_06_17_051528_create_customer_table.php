@@ -19,7 +19,7 @@ return new class extends Migration
             $table->boolean('status');
             $table->boolean('address');
             $table->boolean('tel');
-            $table->string('role', 50);
+            $table->string('role')->default('customer');
             $table->timestamps();
         });
     }
